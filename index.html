@@ -1,0 +1,709 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f0b6b9050a.js" crossorigin="anonymous"></script>
+    <title>TAILWIND MADE 2</title>
+
+</head>
+
+<body>
+    <!-- arrow  -->
+    <div id="upbutton" onclick="gototop()"
+        class="bg-red-800 fixed bottom-8 right-8 px-2 text-xl font-bold cursor-pointer rounded-full ">
+        <span>&UpArrow;</span>
+    </div>
+    <!-- menu -->
+    <section>
+        <!-- menu top -->
+        <nav class="bg-purple-900 text-white py-2 md:block hidden">
+            <div>
+                <div class="flex justify-between px-28">
+                    <div>
+                        <p><i class="fa-solid fa-phone mr-2 text-yellow-300"></i> +9817212025 | <i
+                                class="fa-solid fa-envelope mr-2 ml-2 text-yellow-300"></i> contact@xyz.com.np</p>
+                    </div>
+                    <div>
+                        <p><i class="fa-brands fa-facebook mr-2 ml-2 text-yellow-300"></i> | <i
+                                class="fa-brands fa-twitter mr-2 ml-2 text-yellow-300"></i> | <i
+                                class="fa-solid fa-globe mr-2 ml-2 text-yellow-300"></i> | <i
+                                class="fa-brands fa-instagram mr-2 ml-2 text-yellow-300"></i> | <i
+                                class="fa-brands fa-pinterest mr-2 ml-2 text-yellow-300"></i></p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- menu top end -->
+        <!-- main menu  -->
+        <nav class="hidden md:block">
+            <div class="flex justify-between py-6">
+                <div class="ml-28 font-bold text-3xl">
+                    <h1><i class="fa-solid fa-book-open text-yellow-300 mr-3"></i>Shikshya</h1>
+                </div>
+                <div class="mr-24">
+                    <ul class="font-semibold m-2">
+                        <li class="inline mr-6"><a href="#">HOME</a></li>
+                        <li class="inline mr-6"><a href="#">PAGES</a></li>
+                        <li class="inline mr-6"><a href="#">ELEMENTS</a></li>
+                        <li class="inline mr-6"><a href="#">COURSES</a></li>
+                        <li class="inline mr-6"><a href="#">NEWS</a></li>
+                        <li class="inline mr-8"><a href="#">CONTACT</a></li>
+                        <li class="inline mr-6"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li class="inline mr-6"><a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                    </ul>
+                </div>
+        </nav>
+        <!-- mobile menu 
+        <nav class="hidden sm:block">
+            <div class="flex justify-between py-6">
+                    <h1><i class="fa-solid fa-book-open text-yellow-300  font-bold"></i>Shikshya</h1>
+                    <a href="#"> <i onclick="displaymenu()" class="fa fa-bars fa-2x m-2"></i></a>
+            </div>
+                    <ul id="display-text" class="font-semibold m-2 hidden text-center">
+                        <li class=" mr-6"><a href="#">HOME</a></li>
+                        <li class=" mr-6"><a href="#">PAGES</a></li>
+                        <li class=" mr-6"><a href="#">ELEMENTS</a></li>
+                        <li class=" mr-6"><a href="#">COURSES</a></li>
+                        <li class=" mr-6"><a href="#">NEWS</a></li>
+                        <li class=" mr-8"><a href="#">CONTACT</a></li>
+                        <li class=" mr-6"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li class="inline mr-6"><a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                    </ul>
+        </nav> -->
+    </section>
+    <!-- hero section  -->
+    <section>
+        <div class="bg-[url('img/hero.jpg')] bg-cover">
+            <div class="text-white py-32 px-40">
+                <h1 class="text-5xl font-bold mb-2">Admition Going On</h1>
+                <h1 class="text-6xl font-bold mb-2">Edura University</h1>
+                <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                    molestias culpa doloremque cum! Hic</p>
+                <div class="mx-4 my-8">
+                    <button class="border border-white py-5 px-16  border-2 -mr-2"><a href=""></a></button>
+                    <button class="text-black bg-yellow-300 py-2 px-5  -ml-36 font-bold"><a href="">ADMIT
+                            NOW</a></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- hero section end -->
+    <!-- welcome section  -->
+    <section class=" px-32 py-16">
+        <div class="grid md:grid-cols-2">
+            <div>
+                <h1 class="font-bold text-2xl pb-4">WELCOME TO OUR SHIKSHYA </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi unde sunt labore tenetur
+                    provident modi nihil! Natus velit repellendus, est tenetur sint ratione atque fuga cupiditate dolor
+                    ipsam aspernatur! Molestias Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+                    deleniti distinctio, earum beatae at sequi tempore sit quia amet architecto autem deserunt
+                    necessitatibus quos consectetur consequuntur nihil fugiat a impedit?
+                </p>
+                <div class="mx-4 my-8">
+                    <button class="border border-black py-5 px-16  border-2 -mr-2"><a href=""></a></button>
+                    <button class="text-black bg-yellow-300 py-2 px-5  -ml-36 font-bold"><a href="">ADMIT
+                            NOW</a></button>
+                </div>
+            </div>
+            <div class="mx-24">
+                <img class="w-full" src="img/welcome.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 mt-16">
+            <div class="border-l-4 bg-slate-100  border-yellow-400 py-4 px-4">
+                <h1 class="font-bold pb-1 text-xl">Scholarship Facility <span class="text-slate-300 ml-16">01</span>
+                </h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perferendis
+            </div>
+            <div class="border-l-4 bg-slate-50  border-yellow-400 py-4 px-4">
+                <h1 class="font-bold pb-1 text-xl">Advance Advisor<span class="text-slate-300 ml-16">02</span></h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perferendis
+            </div>
+            <div class="border-l-4 bg-slate-50  border-yellow-400 py-4 px-4">
+                <h1 class="font-bold pb-1 text-xl">Sports and gaming<span class="text-slate-300 ml-16">03</span></h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perferendis
+            </div>
+        </div>
+    </section>
+
+    <!-- welcome section end  -->
+    <!-- our latest courses  -->
+    <section class="bg-blue-900 px-32 py-12">
+        <div class="text-center text-white">
+            <h1 class="text-xl font-bold mb-1">OUR LATEST CORSES</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eum enim <br>itaque! Voluptates rem porro
+                fugit facilis provident </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 mt-8">
+            <div class="bg-white">
+                <img src="img/course.jpg" alt="">
+                <div class="px-6">
+                    <button class="text-black bg-yellow-300 py-1 px-3 mt-4 font-bold"><a href="">ADMIT
+                            NOW</a></button>
+                    <h1 class="font-bold py-4">Buisness Studies</h1>
+                    <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, </p>
+                </div>
+                <hr>
+                <div class="flex mt-2 px-4 pb-2">
+                    <p class=""><i class="fa-regular fa-user px-4"> 31</i> | <i class="px-4 fa-regular fa-heart"> 42</i>
+                    </p>
+                    <a class="ml-16" href="#">view details</a>
+                </div>
+            </div>
+
+            <div class="bg-white">
+                <img src="img/course.jpg" alt="">
+                <div class="px-6">
+                    <button class="text-black bg-yellow-300 py-1 px-3 mt-4 font-bold"><a href="">ADMIT
+                            NOW</a></button>
+                    <h1 class="font-bold py-4">Buisness Studies</h1>
+                    <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, </p>
+                </div>
+                <hr>
+                <div class="flex mt-2 px-4 pb-2">
+                    <p class=""><i class="fa-regular fa-user px-4"> 31</i> | <i class="px-4 fa-regular fa-heart"> 42</i>
+                    </p>
+                    <a class="ml-16" href="#">view details</a>
+                </div>
+            </div>
+
+            <div class="bg-white">
+                <img src="img/course.jpg" alt="">
+                <div class="px-6">
+                    <button class="text-black bg-yellow-300 py-1 px-3 mt-4 font-bold"><a href="">ADMIT
+                            NOW</a></button>
+                    <h1 class="font-bold py-4">Buisness Studies</h1>
+                    <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, </p>
+                </div>
+                <hr>
+                <div class="flex mt-2 px-4  pb-2">
+                    <p class=""><i class="fa-regular fa-user px-4"> 31</i> | <i class="px-4 fa-regular fa-heart"> 42</i>
+                    </p>
+                    <a class="ml-16" href="#">view details</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- our experience advisor -->
+    <section class="my-16 px-32">
+        <div class="text-center px-64">
+            <h1 class="font-bold text-3xl">Our Experience Advisors</h1>
+            <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab perferendis aliquid nam quos
+                sunt veritatis adipisci quaerat eveniet aut sit, soluta enim qui saepe .</p>
+        </div>
+        <div class="grid grid-cols-4 gap-6 my-6">
+            <div class="text-center border-b-2 border-yellow-300">
+                <img src="team/teammember1.jpg" alt="">
+                <h1 class="font-bold text-xl mt-4">Chasa M. Bynum</h1>
+                <p class="mb-4">English Teacher</p>
+            </div>
+
+            <div class="text-center border-b-2 border-yellow-300">
+                <img src="team/teammember2.jpg" alt="">
+                <h1 class="font-bold text-xl mt-4">Brends C. Garcia</h1>
+                <p class="mb-4">CSE Teacher</p>
+            </div>
+
+            <div class="text-center border-b-2 border-yellow-300">
+                <img src="team/teammember3.jpg" alt="">
+                <h1 class="font-bold text-xl mt-4">Mark K. Bruh</h1>
+                <p class="mb-4">Math Teacher</p>
+            </div>
+
+            <div class="text-center border-b-2 border-yellow-300">
+                <img src="team/teammember4.jpg" alt="">
+                <h1 class="font-bold text-xl mt-4">Mary M. Douglas</h1>
+                <p class="mb-4">English Teacher</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- our experience advisor end -->
+    <!-- upcomming events -->
+    <section class="bg-blue-900 md:px-32 py-12">
+        <div class="text-center text-white">
+            <h1 class="text-2xl font-bold mb-1">Upcoming Events</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eum enim <br>itaque! Voluptates rem porro
+            </p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6 mt-4">
+            <div class="flex bg-white rounded">
+                <div class="flex-initial w-40">
+                    <img classs="h-40" src="events/eventsthumb1.png" alt="">
+                </div>
+                <div class="flex-initial w-full px-8 mb-4">
+                    <div class="flex my-4">
+                        <div CLASS="bg-yellow-400 text-center rounded p-1 ">
+                            <h1 class="font-bold text-xl">25</h1>
+                            <P>SEP, 2018</P>
+                        </div>
+                        <div class="mx-4">
+                            <h1 class="text-xl font-bold">BUISNESS CONFERENCES</h1>
+                            <p>05:23 AM- 09-23 AM</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptates veritatis
+                        praesentium aspernatur, molestiae sunt </p>
+                </div>
+
+            </div>
+
+            <div class="flex bg-white rounded">
+                <div class="flex-initial w-32">
+                    <img classs="h-96" src="events/small_events_thumb_02.jpg" alt="">
+                </div>
+                <div class="flex-initial w-full px-8 mb-4">
+                    <div class="flex my-4">
+                        <div CLASS="bg-yellow-400 text-center rounded p-1 ">
+                            <h1 class="font-bold text-xl">25</h1>
+                            <P>SEP, 2018</P>
+                        </div>
+                        <div class="mx-4">
+                            <h1 class="text-xl font-bold">BUISNESS CONFERENCES</h1>
+                            <p>05:23 AM- 09-23 AM</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptates veritatis
+                        praesentium aspernatur, molestiae sunt </p>
+                </div>
+
+            </div>
+
+
+            <div class="flex bg-white rounded">
+                <div class="flex-initial w-32">
+                    <img classs="h-96" src="events/small_events_thumb_02.jpg" alt="">
+                </div>
+                <div class="flex-initial w-full px-8 mb-4">
+                    <div class="flex my-4">
+                        <div CLASS="bg-yellow-400 text-center rounded p-1 ">
+                            <h1 class="font-bold text-xl">25</h1>
+                            <P>SEP, 2018</P>
+                        </div>
+                        <div class="mx-4">
+                            <h1 class="text-xl font-bold">BUISNESS CONFERENCES</h1>
+                            <p>05:23 AM- 09-23 AM</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptates veritatis
+                        praesentium aspernatur, molestiae sunt </p>
+                </div>
+
+            </div>
+
+
+            <div class="flex bg-white rounded">
+                <div class="flex-initial w-32">
+                    <img classs="h-60" src="events/small_events_thumb_02.jpg" alt="">
+                </div>
+                <div class="flex-initial w-full px-8 mb-4">
+                    <div class="flex my-4">
+                        <div CLASS="bg-yellow-400 text-center rounded p-1 ">
+                            <h1 class="font-bold text-xl">25</h1>
+                            <P>SEP, 2018</P>
+                        </div>
+                        <div class="mx-4">
+                            <h1 class="text-xl font-bold">BUISNESS CONFERENCES</h1>
+                            <p>
+                                <i class="fa-solid fa-clock mr-2"></i>
+                                05:23 AM- 09-23 AM
+                            </p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptates veritatis
+                        praesentium aspernatur, molestiae sunt </p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="text-center my-8 font-bold text-white">
+            <a class=" underline" href="#">VIEW ALL EVENTS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- upcomming events end  -->
+    <!-- what our student say  -->
+    <section class="md:mx-32">
+        <div class="text-center mt-12">
+            <h1 class="font-bold text-2xl">WHAT OUR STUDENTS SAY</h1>
+            <P class="px-48 my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quas, magnam maxime
+                harum, maiores deleniti repudiandae laudantium Lorem ipsum dolor sit amet consectetu</P>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 ">
+            <div class="bg-zinc-200 px-4 rounded">
+                <div class="flex my-3">
+                    <div>
+                        <img src="testimonials/testimonilas_author_thumb1.png" alt="">
+                    </div>
+                    <div class="mx-4">
+                        <h1 class="font-bold text-md">LISA MCCLANAHAN</h1>
+                        <p class="font-semibold">CEE STUDENT</p>
+                    </div>
+                </div>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima at voluptatibus repellat
+                    perferendis, autem enim excepturi voluptatum .</P>
+                <P class="my-4"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                </P>
+            </div>
+
+            <div class="bg-zinc-200 px-4 rounded">
+                <div class="flex my-3">
+                    <div>
+                        <img src="testimonials/testimonilas_author_thumb2.png" alt="">
+                    </div>
+                    <div class="mx-4">
+                        <h1 class="font-bold text-md">LISA MCCLANAHAN</h1>
+                        <p class="font-semibold">CEE STUDENT</p>
+                    </div>
+                </div>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima at voluptatibus repellat
+                    perferendis, autem enim excepturi voluptatum .</P>
+                <P class="my-4"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                </P>
+            </div>
+
+            <div class="bg-zinc-200 px-4 rounded">
+                <div class="flex my-3">
+                    <div>
+                        <img src="testimonials/testimonilas_author_thumb1.png" alt="">
+                    </div>
+                    <div class="mx-4">
+                        <h1 class="font-bold text-md">LISA MCCLANAHAN</h1>
+                        <p class="font-semibold">CEE STUDENT</p>
+                    </div>
+                </div>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima at voluptatibus repellat
+                    perferendis, autem enim excepturi voluptatum .</P>
+                <P class="my-4"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                </P>
+            </div>
+
+        </div>
+        <div class="my-12 text-center">
+            <p><i class="fa-solid fa-circle"></i> <i class="fa-solid fa-circle"></i> <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i></p>
+        </div>
+
+    </section>
+
+    <!-- video  -->
+    <section>
+        <div class="bg-[url('video/video_bg.jpg')]">
+            <div class="py-20 text-center  bg-gradient-to-r from-violet-100 to-fuchsia-20">
+                <i class="fa-solid fa-circle-play fa-3x"></i>
+                <h1 class="font-bold text-xl text-white my-2">
+                    WATCH OUR LATEST VIDEO
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- video end  -->
+
+    <!-- achivements -->
+    <section CLASS="md:mx-32">
+        <div class="grid md:grid-cols-4 gap-6 my-8">
+            <div class="text-center">
+                <i class="fa-solid fa-user fa-2x  text-yellow-300"></i>
+                <h1 class="font-bold text-2xl">10532</h1>
+                <P>SATISFIED STUDENTS</P>
+            </div>
+
+            <div class="text-center">
+                <i class="fa-solid fa-book fa-2x text-yellow-300"></i>
+                <h1 class="font-bold text-2xl">7984</h1>
+                <P>COURSES COMPLEATED</P>
+            </div>
+
+            <div class="text-center">
+                <i class="fa-solid fa-trophy fa-2x text-yellow-300"></i>
+                <h1 class="font-bold text-2xl">5382</h1>
+                <P>SATISFIED STUDENTS</P>
+            </div>
+
+            <div class="text-center">
+                <i class="fa-solid fa-user fa-2x text-yellow-300"></i>
+                <h1 class="font-bold text-2xl">354</h1>
+                <P>EXPERT ADVISORS</P>
+            </div>
+        </div>
+    </section>
+    <!-- achivements end  -->
+
+    <!-- latests news  -->
+    <section class="bg-slate-200 px-32 py-12">
+        <div class="text-center">
+            <h1 class="text-2xl font-bold mb-1 ">latest News</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eum enim <br>itaque! Voluptates rem porro
+                fugit facilis provident </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 mt-8">
+            <div class="bg-white">
+                <img src="blog/blog_thumb_1.jpg" alt="">
+                <div class="text-left">
+                    <button class="text-black bg-yellow-300 py-1 px-3 font-bold rounded"><a href="">News</a></button>
+                </div>
+
+                <div class="px-6 mb-8">
+                    <h3 class="font-semibold py-2">AUGUST 25, 2018</h3>
+                    <h2 class="mb-2 font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
+                    </h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ?</p>
+                    <a class="my-4 font-semibold" href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="bg-white">
+                <img src="blog/blog_thumb_2.jpg" alt="">
+                <div class="text-left">
+                    <button class="text-black bg-yellow-300 py-1 px-3 font-bold rounded"><a href="">News</a></button>
+                </div>
+
+                <div class="px-6 mb-8">
+                    <h3 class="font-semibold py-2">AUGUST 25, 2018</h3>
+                    <h2 class="mb-2 font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
+                    </h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ?</p>
+                    <a class="my-4 font-semibold" href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="bg-white">
+                <img src="blog/blog_thumb_3.jpg" alt="">
+                <div class="text-left">
+                    <button class="text-black bg-yellow-300 py-1 px-3 font-bold rounded"><a href="">News</a></button>
+                </div>
+
+                <div class="px-6 mb-8">
+                    <h3 class="font-semibold py-2">AUGUST 25, 2018</h3>
+                    <h2 class="mb-2 font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
+                    </h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ?</p>
+                    <a class="my-4 font-semibold" href="#">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- latest news  -->
+
+    <!-- brands  -->
+    <section CLASS="md:mx-32">
+        <div class="grid md:grid-cols-6 gap-6 my-8">
+            <div>
+                <img src="brand/brand1.png" alt="">
+            </div>
+
+            <div>
+                <img src="brand/brand2.png" alt="">
+            </div>
+
+            <div>
+                <img src="brand/brand3.png" alt="">
+            </div>
+
+            <div>
+                <img src="brand/brand4.png" alt="">
+            </div>
+
+            <div>
+                <img src="brand/brand5.png" alt="">
+            </div>
+
+            <div>
+                <img src="brand/brand6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe  -->
+    <section class="bg-yellow-300 mx-32 py-8">
+        <div class="flex justify-between">
+            <div class="mx-16">
+                <h1 class="font-bold text-4xl">Subscribe</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe consequatur </p>
+            </div>
+            <div class="my-6 mx-16">
+                <input class="w-52 rounded rounded-3 py-1 px-2" placeholder="ENTER YOUR EMAIL" type="text">
+            </div>
+        </div>
+    </section>
+    <!-- subscribe end  -->
+
+    <footer class="bg-blue-600 px-32">
+
+        <div class="grid grid-cols-4 gap-6  py-28">
+            <div>
+                <h1 class=" font-bold text-3xl text-white"><i
+                        class="fa-solid fa-book-open text-yellow-300 mr-3"></i>Shikshya</h1>
+                <p class="mt-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate
+                    natus liber.</p>
+                    
+                    <div class="mt-6">
+                        <h1 class="font-bold text-2xl text-white mb-2">Follow Us</h1>
+                        <p><i class="fa-brands fa-facebook mr-2 ml-2 text-white"></i><i
+                                class="fa-brands fa-twitter mr-2 ml-2 text-white"></i><i
+                                class="fa-solid fa-globe mr-2 ml-2 text-white"></i><i
+                                class="fa-brands fa-instagram mr-2 ml-2 text-white"></i><i
+                                class="fa-brands fa-pinterest mr-2 ml-2 text-white"></i></p>
+                    </div>
+
+            </div>
+            <div>
+                <h1 class="font-bold text-3xl text-yellow-300">Quick Links</h1>
+                <div class="flex mt-4 font-semibold text-white justify-between">
+                    <ul>
+                        <li>Privacy policy</li>
+                        <li>Support</li>
+                        <li>Team Member</li>
+                        <li>About Us</li>
+                        <li>condition</li>
+                        <li>who we are</li>
+                    </ul>
+                    <ul ckass="">
+                        <li>Condition</li>
+                        <li>Support</li>
+                        <li>Team Member</li>
+                        <li>About Us</li>
+                        <li>condition</li>
+                        <li>who we are</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="font-bold text-3xl text-yellow-300">Recent Posts</h1>
+                <div class="flex justify-between my-4">
+                    <div>
+                        <img class="w-32 px-4 my-2" src="blog/blog_thumb_1.jpg" alt="">
+                    </div>
+                    <div class="text-white">
+                        <P>Lorem ipsum dolor, sit ame</P>
+                        <p>
+                            <i class="fa-solid fa-clock mr-2"></i>
+                            05 May 2018
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex justify-between my-4">
+                    <div>
+                        <img class="w-32 px-4 my-2" src="blog/blog_thumb_1.jpg" alt="">
+                    </div>
+                    <div class="text-white">
+                        <P>Lorem ipsum dolor, sit ame</P>
+                        <p>
+                            <i class="fa-solid fa-clock mr-2"></i>
+                            05 May 2018
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div>
+                <h1 class="font-bold text-3xl text-yellow-300">Contact Us</h1>
+                <div class="mt-6 text-white">
+                    <p><i class="fa-solid fa-headphones text-yellow-300 mr-2 my-2"></i> +977 9845739489</p>
+                    <p><i class="fa-solid fa-envelope text-yellow-300 mr-2 my-2"></i> Abhishekmahato@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot text-yellow-300 mr-2 my-2"></i> 123 New-Road-Nepal</p>
+                    <h1 class="my-4 font-bold text-xl">Opeaning Hour</h1>
+                    <h1 class="font-bold text-md">
+                        Sun-Sat : 10:00 am - 05:00 pm
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3 class="text-center font-bold py-4 text-blue-100">Abhishek Mahato</h3>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function displaymenu() {
+
+            if (document.getElementById("display-text").style.display == "block") {
+                document.getElementById("display-text").style.display = "none";
+            }
+            else {
+                document.getElementById("display-text").style.display = "block";
+            }
+        }
+
+
+    </script>
+    <!-- arrow scroll bar -->
+    <script>
+        var upbutton = document.getElementById('upbutton');
+        upbutton.style.display = 'none';
+        window.onscroll = function () {
+            ScrollFunction();
+        }
+        function ScrollFunction() {
+            if (window.scrollY > 200) {
+                upbutton.style.display = 'block';
+            }
+            else {
+                upbutton.style.display = 'none';
+            }
+        }
+
+        function gototop() {
+            // document.documentElement
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
